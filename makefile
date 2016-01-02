@@ -1,5 +1,5 @@
-CC = gcc
-FILES = src/main.c src/ssl.c
+CC = g++
+FILES = src/main.cpp
 OUT_BIN = bin/harvester
 
 build: $(FILES)
