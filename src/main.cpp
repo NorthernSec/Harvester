@@ -24,7 +24,9 @@ int main(int argc, char **argv) {
 
 	/* Add modules. */
 	module_facebook facebook;
+	module_google google;
 	manager.add_module((module *)&facebook);
+	manager.add_module((module *)&google);
 
 	/* Perform search. */
 	manager.perform_search("robin.abony@gmail.com");

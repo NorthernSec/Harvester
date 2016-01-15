@@ -10,7 +10,6 @@ class module_facebook : public module {
 public:
 	virtual void		init_module(logger *);
 	virtual void		perform_search(const std::string &);
-private:
 };
 
 #endif
