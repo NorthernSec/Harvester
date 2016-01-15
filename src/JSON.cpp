@@ -90,7 +90,6 @@ JSONValue *JSON::Parse(const char *data)
 		return (NULL);
 	}
 
-	printf("Do we even get this far fuckers\n");	
 	JSONValue *value = JSON::Parse(w_data);
 	free(w_data);
 	return value;
